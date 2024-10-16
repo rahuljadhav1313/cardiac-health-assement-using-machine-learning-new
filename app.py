@@ -11,9 +11,13 @@ from streamlit_option_menu import option_menu
 
 
 
-heart_disease_model = pickle.load(open('C:/Users/rahul/OneDrive/Desktop/Multiple Disease Prediction System/saved 
+heart_disease_model = pickle.load(
+    open(
+        'C:/Users/rahul/OneDrive/Desktop/Multiple Disease Prediction System/saved model/heart_disease_model.sav', 
+        'rb'
+    )
+)
 
-model/heart_disease_model.sav'))
 
 
 
