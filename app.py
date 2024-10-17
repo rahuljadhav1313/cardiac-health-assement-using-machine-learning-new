@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-
+pip install -r requirements.txt
 
 heart_disease_model = pickle.load(
     open(
